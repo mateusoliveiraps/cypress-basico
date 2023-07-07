@@ -6,7 +6,8 @@ const phoneField = document.getElementById('phone')
 document.querySelector('#phone-checkbox')
   .addEventListener('change', function() {
     if (this.checked) {
-      phoneLabelSpan.style.display = 'inline'
+      phoneLa
+      belSpan.style.display = 'inline'
       phoneField.required = !isPhoneRequired
       isPhoneRequired = !isPhoneRequired
     } else {
